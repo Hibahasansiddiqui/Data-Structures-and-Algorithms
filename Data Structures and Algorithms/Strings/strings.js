@@ -4,7 +4,7 @@ let name = "Mamdani"
 console.log(name[name.length-1]);
 
 //Strings are same like arrays in indexing
-console.log(name [name.length-6])
+console.log(name [name.length-7])
 
 //We can run loops on strings
 

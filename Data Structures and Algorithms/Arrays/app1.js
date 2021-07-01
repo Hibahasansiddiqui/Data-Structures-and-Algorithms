@@ -15,7 +15,6 @@ console.log("\nUsing While loop");
 
 while (j < array.length){
 
-    
     console.log("index: "+j, "Element: " + array[j]);
     j++;
 }
