@@ -1,4 +1,6 @@
-/*Suppose you are given an array: [9, 7, 75, 32, 3234, 5, 3] . Find whether 3 is present in the given array. If it’s there return true otherwise return false*/
+/*Suppose you are given an array: [9, 7, 75, 32, 3234, 5, 3] . 
+Find whether 3 is present in the given array. 
+If it’s there return true otherwise return false*/
 
 let Arr = [9, 7, 75, 32, 3234, 5, 3];
 
