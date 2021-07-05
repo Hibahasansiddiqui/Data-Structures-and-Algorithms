@@ -44,24 +44,24 @@ console.log(userObject)
 		}];
 */
 
-let books = [
-    {
-                name: "The Lean Startup",
-                topics: ["entrepreneurship’,’startups"],
-            },
-            {
-                name: "War and Peace",
-                topics: ["peace", "politics"],
-            }]
+//let books = [
+  //  {
+      //          name: "The Lean Startup",
+    //            topics: ["entrepreneurship’,’startups"],
+          //  },
+        //    {
+            //    name: "War and Peace",
+              //  topics: ["peace", "politics"],
+            //}]
 
             
 /*Now you need to print the name and topics separately, 
 how would you do that?  */
 
-for (let i = 0; i < books.length; i++) {
-	console.log(books[i].name);
-	console.log(books[i].topics)
-}
+//for (let i = 0; i < books.length; i++) {
+	//console.log(books[i].name);
+	//console.log(books[i].topics)
+//}
 
 /*Take the above array of objects 
 and add a book of your choice to it with the same properties.*/
@@ -74,29 +74,25 @@ and add a book of your choice to it with the same properties.*/
 //}
 //console.log(books);
 
-books.name = "Last Sumarai"
-books.topics = "Ninja, Discipline"
+//books.name = "Last Sumarai"
+//books.topics = "Ninja, Discipline"
 
-console.log(books)
+//console.log(books)
 
 
-//start
+//Add name and topic at the start of the array
 
-function LetsUnshift() {
-	books.length = books.length + 1
-    for (i = books.length-1; i > 0; i++) {
-        books[i+1] = books[i];
+/*function LetsUnshift() {
+    for (i = books.length-1; i >=0; i--) {
+        books[i] = books[i-1];
     }
-    books[0] = {
-		name: 'Last Sumarai', topics: ['Ninja', 'Discipline']
-	};
-	books[1] = {
+    books[books.length - books.length] = {
 		name: 'Alchemist', topics: ['Inspiration', 'Life Journey']
-	}
+	};
 
 };
-LetsUnshift(books[0]);
-console.log(i, books[i])
+LetsUnshift();
+console.log(books)*/
 
 
 
@@ -105,9 +101,30 @@ console.log(i, books[i])
 //console.log(books)
 
 //delete item from start
-//for (let i = 0; i < books.length; i++) {
-//	books[i] = books[i+1];
-	
-//}
-//books.length = books.length-1
-//console.log(books)
+
+let books = [
+    {
+    name: "The Lean Startup",
+    topics: ["entrepreneurship","startups"],
+    },
+    {
+    name: "War and Peace",
+    topics: ["peace", "politics"],
+    },
+    {
+        name: "Alchemist",
+        topics: ["Inspiring", "Journey"],
+    },
+    {
+        name: "Last Sumarai",
+        topics: ["Ninja", "Discipline"],
+    }
+];
+function deleteFromStart(){
+    for (let i = 0; i<books.length-1; i++){
+       books[i] = books[i+1];
+       console.log(i, books[i]);
+    }
+       
+}
+deleteFromStart();
