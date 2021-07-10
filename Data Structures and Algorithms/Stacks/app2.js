@@ -8,8 +8,8 @@ pop: a method through which you can remove the first element of the stack
 
 class Stack{
     constructor(){
-        this.items = ["My","Name","Is", "Rafat"];
-        this.size = 10;
+        this.items = ["My","Name","Is", "Hiba"];
+        this.size = 9;
     }
 
 push1(input){
@@ -46,7 +46,7 @@ printStack(){
 }
 
 let myStack = new Stack();
-myStack.push1("Fatima");
+myStack.push1("Hasan");
 myStack.printStack();
 
 myStack.push2("Push-2"); 

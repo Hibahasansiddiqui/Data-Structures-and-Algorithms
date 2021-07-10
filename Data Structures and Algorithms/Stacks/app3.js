@@ -5,7 +5,7 @@ isFull: a method that checks whether the given stack is full or not. Hint: Compa
 */
 class Stack{
     constructor(){
-        this.items = ["My","Name","Is", "Rafat"];
+        this.items = ["My","Name","Is", "Hiba"];
         this.size = 10;
     }
 

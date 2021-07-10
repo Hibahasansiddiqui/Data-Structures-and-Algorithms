@@ -6,8 +6,8 @@ toString: a method that converts all members of stack into string
 
 class Stack{
     constructor(){
-        this.items = ["My","Name","Is", "Rafat"];
-        this.size = 10;
+        this.items = ["My","Name","Is", "Hiba"];
+        this.size = 9;
     }
     
     stackclear(){

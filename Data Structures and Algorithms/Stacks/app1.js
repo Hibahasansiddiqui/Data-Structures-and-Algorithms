@@ -5,8 +5,8 @@ and a size property that will be used to track the size of stack.
 
 class Stack{
     constructor(){
-        this.items = ["My","Name","Is", "Rafat"];
-        this.size = 10;
+        this.items = ["My","Name","Is", "Hiba"];
+        this.size = 9;
     }
     printStack(){
 
